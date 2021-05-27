@@ -1,0 +1,63 @@
+
+.grid-container-night {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
+  background-color: #3b3a49 !important;
+}
+
+.Moon-img{
+  position: absolute;
+  width: 25vw;
+  top: 2vh;
+  right: 0vw;
+}
+
+.left-middle{
+  position: absolute;
+  left: 11vw;
+  top: 34vh;
+}
+
+.Middle-Part{
+  position: absolute;
+  top: 40vh;
+  left: 28vw;
+  z-index: 1;
+}
+
+/*Search Bar Bottom*/
+
+.grid-item-3 { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: 3 / 1 / 4 / 2; 
+}
+
+.margin-div{
+  width: 8vh;
+  height: 8vh;
+}
+
+.Play-Button{
+  width: 8vh;
+  height: 8vh;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #BAC6F2;
+}
+
+.Search-Button{
+  width: 8vh;
+  height: 8vh;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #BAC6F2;
+}
